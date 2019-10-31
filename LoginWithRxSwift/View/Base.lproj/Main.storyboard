@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rx Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RxLoginViewController" customModule="LoginWithRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bqB-rI-saB">
+                                <rect key="frame" x="30" y="207" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K5F-RO-6dg">
+                                <rect key="frame" x="30" y="277" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Enable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9r-Fb-EFL">
+                                <rect key="frame" x="142" y="337" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.94086736439999996" green="0.41629664440000003" blue="0.1436723828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJv-V3-xLG">
+                                <rect key="frame" x="40" y="388" width="315" height="30"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CfO-1r-ODt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q9r-Fb-EFL" firstAttribute="top" secondItem="K5F-RO-6dg" secondAttribute="bottom" constant="30" id="1xQ-p4-cPb"/>
+                            <constraint firstItem="bqB-rI-saB" firstAttribute="leading" secondItem="K5F-RO-6dg" secondAttribute="leading" id="5HL-SI-o1B"/>
+                            <constraint firstItem="K5F-RO-6dg" firstAttribute="top" secondItem="bqB-rI-saB" secondAttribute="bottom" constant="40" id="7bB-lU-rWM"/>
+                            <constraint firstItem="aJv-V3-xLG" firstAttribute="top" secondItem="Q9r-Fb-EFL" secondAttribute="bottom" constant="30" id="BeZ-8K-6vD"/>
+                            <constraint firstItem="bqB-rI-saB" firstAttribute="trailing" secondItem="K5F-RO-6dg" secondAttribute="trailing" id="CLC-1u-aoO"/>
+                            <constraint firstItem="K5F-RO-6dg" firstAttribute="centerX" secondItem="aJv-V3-xLG" secondAttribute="centerX" id="FRd-lh-ex6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bqB-rI-saB" secondAttribute="trailing" constant="49" id="hmH-Ep-bIn"/>
+                            <constraint firstItem="bqB-rI-saB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="163" id="tuz-3x-Fjf"/>
+                            <constraint firstItem="aJv-V3-xLG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="tzs-9I-RoU"/>
+                            <constraint firstItem="Q9r-Fb-EFL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="x4d-dC-eTw"/>
+                            <constraint firstItem="bqB-rI-saB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="zUT-uT-ZXY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailText" destination="bqB-rI-saB" id="xdY-Tg-gQC"/>
+                        <outlet property="loginButton" destination="aJv-V3-xLG" id="yNe-xT-RfD"/>
+                        <outlet property="passwordText" destination="K5F-RO-6dg" id="cQ4-zP-uxW"/>
+                        <outlet property="validationLabel" destination="Q9r-Fb-EFL" id="c0T-P6-TDs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
