@@ -1,0 +1,248 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxLoginViewModel"
+provides-nominal:
+- "16LoginWithRxSwift0cA9ViewModelC"
+provides-member:
+- ["16LoginWithRxSwift0cA9ViewModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private ">"
+- "AssignmentPrecedence"
+- "BehaviorSubject"
+- "Bool"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NSPredicate"
+- "Observable"
+- "RxLoginViewModel"
+- "String"
+- "StringLiteralType"
+- "User"
+- !private "print"
+depends-member:
+- !private ["7RxSwift15BehaviorSubjectC", "asObservable"]
+- ["7RxSwift15BehaviorSubjectC", "init"]
+- !private ["SK", "count"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "evaluate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "password"]
+- !private ["s7CVarArgP", "username"]
+- !private ["7RxSwift10CancelableP", "asObservable"]
+- ["7RxSwift10CancelableP", "init"]
+- !private ["Sl", "count"]
+- !private ["SL", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "evaluate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "password"]
+- !private ["s28CustomDebugStringConvertibleP", "username"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "evaluate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "password"]
+- !private ["s23CustomStringConvertibleP", "username"]
+- !private ["Se", "count"]
+- !private ["7RxSwift10DisposableP", "asObservable"]
+- ["7RxSwift10DisposableP", "init"]
+- !private ["SE", "count"]
+- !private ["SQ", "count"]
+- !private ["SQ", "evaluate"]
+- ["SQ", "init"]
+- !private ["SQ", "password"]
+- !private ["SQ", "username"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["SH", "count"]
+- !private ["SH", "evaluate"]
+- ["SH", "init"]
+- !private ["SH", "password"]
+- !private ["SH", "username"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "evaluate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "evaluate"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "evaluate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "password"]
+- !private ["So8NSObjectC", "username"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "evaluate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "password"]
+- !private ["So8NSObjectP", "username"]
+- !private ["So11NSPredicateC", "evaluate"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "evaluate"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "count"]
+- !private ["7RxSwift10ObservableC", "asObservable"]
+- !private ["7RxSwift10ObservableC", "combineLatest"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "combineLatest"]
+- ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "asObservable"]
+- !private ["7RxSwift14ObservableTypeP", "combineLatest"]
+- ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "asObservable"]
+- ["7RxSwift12ObserverTypeP", "init"]
+- !private ["Sm", "count"]
+- !private ["7RxSwift18ReactiveCompatibleP", "count"]
+- !private ["7RxSwift18ReactiveCompatibleP", "evaluate"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "password"]
+- !private ["7RxSwift18ReactiveCompatibleP", "username"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "BehaviorSubject"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "Bool"]
+- !private ["16LoginWithRxSwift0cA9ViewModelC", "NSPredicate"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "Observable"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "String"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "User"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "emailText"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "init"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "isValid"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "isValidEmail"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "login"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "password"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "passwordText"]
+- !private ["16LoginWithRxSwift0cA9ViewModelC", "print"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "updateUserCredentials"]
+- !private ["16LoginWithRxSwift0cA9ViewModelC", "user"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "username"]
+- !private ["ST", "count"]
+- !private ["SS", "count"]
+- !private ["Sy", "count"]
+- !private ["7RxSwift11SubjectTypeP", "asObservable"]
+- ["7RxSwift11SubjectTypeP", "init"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "asObservable"]
+- ["7RxSwift27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s20TextOutputStreamableP", "count"]
+- ["16LoginWithRxSwift4UserC", "init"]
+- !private ["16LoginWithRxSwift4UserC", "password"]
+- !private ["16LoginWithRxSwift4UserC", "username"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "evaluate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "password"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "username"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+depends-nominal:
+- "7RxSwift15BehaviorSubjectC"
+- !private "SK"
+- "s7CVarArgP"
+- "7RxSwift10CancelableP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "7RxSwift10DisposableP"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift12ObserverTypeP"
+- !private "Sm"
+- "7RxSwift18ReactiveCompatibleP"
+- "16LoginWithRxSwift0cA9ViewModelC"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- "7RxSwift11SubjectTypeP"
+- "7RxSwift27SynchronizedUnsubscribeTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "16LoginWithRxSwift4UserC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f169e35bf28bf656d5adee4215226d15"

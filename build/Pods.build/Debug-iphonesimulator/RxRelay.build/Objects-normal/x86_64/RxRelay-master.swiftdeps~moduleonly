@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "10c06872d5eff476ba225b300ab1127a"
+build_time: [1567651366, 229936000]
+inputs:
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1567481056, 812096729]
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1567481056, 810985342]
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/Pods/RxRelay/RxRelay/PublishRelay.swift": [1567481056, 810288511]
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/Pods/RxRelay/RxRelay/Utils.swift": [1567481056, 811523350]

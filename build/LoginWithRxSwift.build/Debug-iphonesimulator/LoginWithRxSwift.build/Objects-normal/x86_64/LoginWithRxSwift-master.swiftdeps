@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "1b5b0f6a47075dfe19a493046d01a886"
+build_time: [1572494854, 708488000]
+inputs:
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/LoginWithRxSwift/Model/User.swift": [1567651806, 944420256]
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/LoginWithRxSwift/ViewController.swift": [1567479094, 855290651]
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/LoginWithRxSwift/View/RxLoginViewController.swift": [1572494689, 119212136]
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/LoginWithRxSwift/AppDelegate.swift": [1567479094, 851113081]
+  "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/LoginWithRxSwift/View Models/RxLoginViewModel.swift": [1572494854, 467333806]

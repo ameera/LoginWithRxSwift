@@ -1,0 +1,605 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxLoginViewController"
+provides-nominal:
+- "16LoginWithRxSwift0cA14ViewControllerC"
+provides-member:
+- ["16LoginWithRxSwift0cA14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "emailText"
+- "loginButton"
+- "loginPressed"
+- "passwordText"
+- "validationLabel"
+- "viewDidLoad"
+depends-top-level:
+- !private "??"
+- !private "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "DisposeBag"
+- "RxLoginViewController"
+- "RxLoginViewModel"
+- !private "TernaryPrecedence"
+- "UIButton"
+- "UILabel"
+- "UITextField"
+- "UIViewController"
+depends-member:
+- !private ["So15CALayerDelegateP", "isEnabled"]
+- !private ["So15CALayerDelegateP", "rx"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- ["s7CVarArgP", "DisposeBag"]
+- ["s7CVarArgP", "RxLoginViewModel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "disposeBag"]
+- !private ["s7CVarArgP", "emailText"]
+- !private ["s7CVarArgP", "green"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "loginButton"]
+- !private ["s7CVarArgP", "loginViewModel"]
+- !private ["s7CVarArgP", "passwordText"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "rx"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "validationLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["7RxCocoa15ControlPropertyV", "map"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "map"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- ["s28CustomDebugStringConvertibleP", "RxLoginViewModel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "emailText"]
+- !private ["s28CustomDebugStringConvertibleP", "green"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "loginButton"]
+- !private ["s28CustomDebugStringConvertibleP", "loginViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "passwordText"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "validationLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "green"]
+- !private ["s17CustomReflectableP", "isEnabled"]
+- !private ["s17CustomReflectableP", "red"]
+- !private ["s17CustomReflectableP", "rx"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s17CustomReflectableP", "textColor"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- ["s23CustomStringConvertibleP", "RxLoginViewModel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "disposeBag"]
+- !private ["s23CustomStringConvertibleP", "emailText"]
+- !private ["s23CustomStringConvertibleP", "green"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "loginButton"]
+- !private ["s23CustomStringConvertibleP", "loginViewModel"]
+- !private ["s23CustomStringConvertibleP", "passwordText"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "validationLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "green"]
+- !private ["Se", "isEnabled"]
+- !private ["Se", "red"]
+- !private ["Se", "rx"]
+- !private ["Se", "text"]
+- !private ["Se", "textColor"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "green"]
+- !private ["SE", "isEnabled"]
+- !private ["SE", "red"]
+- !private ["SE", "rx"]
+- !private ["SE", "text"]
+- !private ["SE", "textColor"]
+- ["SQ", "DisposeBag"]
+- ["SQ", "RxLoginViewModel"]
+- ["SQ", ""]
+- !private ["SQ", "disposeBag"]
+- !private ["SQ", "emailText"]
+- !private ["SQ", "green"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEnabled"]
+- !private ["SQ", "loginButton"]
+- !private ["SQ", "loginViewModel"]
+- !private ["SQ", "passwordText"]
+- !private ["SQ", "red"]
+- !private ["SQ", "rx"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "validationLabel"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "green"]
+- !private ["s23ExpressibleByNilLiteralP", "isEnabled"]
+- !private ["s23ExpressibleByNilLiteralP", "red"]
+- !private ["s23ExpressibleByNilLiteralP", "rx"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "textColor"]
+- ["SH", "DisposeBag"]
+- ["SH", "RxLoginViewModel"]
+- ["SH", ""]
+- !private ["SH", "disposeBag"]
+- !private ["SH", "emailText"]
+- !private ["SH", "green"]
+- !private ["SH", "init"]
+- !private ["SH", "isEnabled"]
+- !private ["SH", "loginButton"]
+- !private ["SH", "loginViewModel"]
+- !private ["SH", "passwordText"]
+- !private ["SH", "red"]
+- !private ["SH", "rx"]
+- !private ["SH", "text"]
+- !private ["SH", "textColor"]
+- !private ["SH", "validationLabel"]
+- !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", "DisposeBag"]
+- ["So8NSCodingP", "RxLoginViewModel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "disposeBag"]
+- !private ["So8NSCodingP", "emailText"]
+- !private ["So8NSCodingP", "green"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEnabled"]
+- !private ["So8NSCodingP", "loginButton"]
+- !private ["So8NSCodingP", "loginViewModel"]
+- !private ["So8NSCodingP", "passwordText"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "rx"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "validationLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "green"]
+- !private ["So9NSCopyingP", "red"]
+- ["So26NSExtensionRequestHandlingP", "DisposeBag"]
+- ["So26NSExtensionRequestHandlingP", "RxLoginViewModel"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "disposeBag"]
+- !private ["So26NSExtensionRequestHandlingP", "emailText"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loginButton"]
+- !private ["So26NSExtensionRequestHandlingP", "loginViewModel"]
+- !private ["So26NSExtensionRequestHandlingP", "passwordText"]
+- !private ["So26NSExtensionRequestHandlingP", "validationLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "green"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderWritingP", "green"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- ["So8NSObjectC", "DisposeBag"]
+- ["So8NSObjectC", "RxLoginViewModel"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "disposeBag"]
+- ["So8NSObjectC", "emailText"]
+- !private ["So8NSObjectC", "green"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEnabled"]
+- ["So8NSObjectC", "loginButton"]
+- ["So8NSObjectC", "loginPressed"]
+- ["So8NSObjectC", "loginViewModel"]
+- ["So8NSObjectC", "passwordText"]
+- !private ["So8NSObjectC", "red"]
+- !private ["So8NSObjectC", "rx"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textColor"]
+- ["So8NSObjectC", "validationLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "DisposeBag"]
+- ["So8NSObjectP", "RxLoginViewModel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "disposeBag"]
+- !private ["So8NSObjectP", "emailText"]
+- !private ["So8NSObjectP", "green"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEnabled"]
+- !private ["So8NSObjectP", "loginButton"]
+- !private ["So8NSObjectP", "loginViewModel"]
+- !private ["So8NSObjectP", "passwordText"]
+- !private ["So8NSObjectP", "red"]
+- !private ["So8NSObjectP", "rx"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "validationLabel"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "green"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["7RxSwift10ObservableC", "bind"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bind"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "bind"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "map"]
+- !private ["Sq", "green"]
+- !private ["Sq", "isEnabled"]
+- !private ["Sq", "red"]
+- !private ["Sq", "rx"]
+- !private ["Sq", "text"]
+- !private ["Sq", "textColor"]
+- !private ["7RxSwift8ReactiveV", "text"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- ["7RxSwift18ReactiveCompatibleP", "RxLoginViewModel"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "emailText"]
+- !private ["7RxSwift18ReactiveCompatibleP", "green"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isEnabled"]
+- !private ["7RxSwift18ReactiveCompatibleP", "loginButton"]
+- !private ["7RxSwift18ReactiveCompatibleP", "loginViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "passwordText"]
+- !private ["7RxSwift18ReactiveCompatibleP", "red"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["7RxSwift18ReactiveCompatibleP", "text"]
+- !private ["7RxSwift18ReactiveCompatibleP", "textColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "validationLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "DisposeBag"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "RxLoginViewModel"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "UIButton"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "UILabel"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "UITextField"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "deinit"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "disposeBag"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "emailText"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "init"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "loginButton"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "loginPressed"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "loginViewModel"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "passwordText"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "validationLabel"]
+- ["16LoginWithRxSwift0cA14ViewControllerC", "viewDidLoad"]
+- !private ["16LoginWithRxSwift0cA9ViewModelC", "emailText"]
+- ["16LoginWithRxSwift0cA9ViewModelC", "init"]
+- !private ["16LoginWithRxSwift0cA9ViewModelC", "isValid"]
+- !private ["16LoginWithRxSwift0cA9ViewModelC", "login"]
+- !private ["16LoginWithRxSwift0cA9ViewModelC", "passwordText"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "rx"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So12UIAppearanceP", "isEnabled"]
+- !private ["So12UIAppearanceP", "rx"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textColor"]
+- ["So21UIAppearanceContainerP", "DisposeBag"]
+- ["So21UIAppearanceContainerP", "RxLoginViewModel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "disposeBag"]
+- !private ["So21UIAppearanceContainerP", "emailText"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isEnabled"]
+- !private ["So21UIAppearanceContainerP", "loginButton"]
+- !private ["So21UIAppearanceContainerP", "loginViewModel"]
+- !private ["So21UIAppearanceContainerP", "passwordText"]
+- !private ["So21UIAppearanceContainerP", "rx"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "validationLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So8UIButtonC", "isEnabled"]
+- !private ["So7UIColorC", "green"]
+- !private ["So7UIColorC", "red"]
+- ["So18UIContentContainerP", "DisposeBag"]
+- ["So18UIContentContainerP", "RxLoginViewModel"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "disposeBag"]
+- !private ["So18UIContentContainerP", "emailText"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loginButton"]
+- !private ["So18UIContentContainerP", "loginViewModel"]
+- !private ["So18UIContentContainerP", "passwordText"]
+- !private ["So18UIContentContainerP", "validationLabel"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "rx"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So9UIControlC", "isEnabled"]
+- !private ["So9UIControlC", "rx"]
+- !private ["So17UICoordinateSpaceP", "isEnabled"]
+- !private ["So17UICoordinateSpaceP", "rx"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So13UIDynamicItemP", "isEnabled"]
+- !private ["So13UIDynamicItemP", "rx"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- ["So18UIFocusEnvironmentP", "DisposeBag"]
+- ["So18UIFocusEnvironmentP", "RxLoginViewModel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "disposeBag"]
+- !private ["So18UIFocusEnvironmentP", "emailText"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isEnabled"]
+- !private ["So18UIFocusEnvironmentP", "loginButton"]
+- !private ["So18UIFocusEnvironmentP", "loginViewModel"]
+- !private ["So18UIFocusEnvironmentP", "passwordText"]
+- !private ["So18UIFocusEnvironmentP", "rx"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "validationLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "isEnabled"]
+- !private ["So11UIFocusItemP", "rx"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "isEnabled"]
+- !private ["So20UIFocusItemContainerP", "rx"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So10UIKeyInputP", "rx"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textColor"]
+- ["So30UIPasteConfigurationSupportingP", "DisposeBag"]
+- ["So30UIPasteConfigurationSupportingP", "RxLoginViewModel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "disposeBag"]
+- !private ["So30UIPasteConfigurationSupportingP", "emailText"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "loginButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "loginViewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "passwordText"]
+- !private ["So30UIPasteConfigurationSupportingP", "rx"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "validationLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "DisposeBag"]
+- ["So11UIResponderC", "RxLoginViewModel"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "disposeBag"]
+- ["So11UIResponderC", "emailText"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isEnabled"]
+- ["So11UIResponderC", "loginButton"]
+- ["So11UIResponderC", "loginPressed"]
+- ["So11UIResponderC", "loginViewModel"]
+- ["So11UIResponderC", "passwordText"]
+- !private ["So11UIResponderC", "rx"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textColor"]
+- ["So11UIResponderC", "validationLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "DisposeBag"]
+- ["So30UIResponderStandardEditActionsP", "RxLoginViewModel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "disposeBag"]
+- !private ["So30UIResponderStandardEditActionsP", "emailText"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "loginButton"]
+- !private ["So30UIResponderStandardEditActionsP", "loginViewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "passwordText"]
+- !private ["So30UIResponderStandardEditActionsP", "rx"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "validationLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isEnabled"]
+- ["So16UIStateRestoringP", "DisposeBag"]
+- ["So16UIStateRestoringP", "RxLoginViewModel"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "disposeBag"]
+- !private ["So16UIStateRestoringP", "emailText"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loginButton"]
+- !private ["So16UIStateRestoringP", "loginViewModel"]
+- !private ["So16UIStateRestoringP", "passwordText"]
+- !private ["So16UIStateRestoringP", "validationLabel"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "rx"]
+- !private ["So15UITextDroppableP", "rx"]
+- !private ["So11UITextFieldC", "rx"]
+- !private ["So11UITextInputP", "rx"]
+- !private ["So17UITextInputTraitsP", "rx"]
+- !private ["So34UITextPasteConfigurationSupportingP", "rx"]
+- ["So18UITraitEnvironmentP", "DisposeBag"]
+- ["So18UITraitEnvironmentP", "RxLoginViewModel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "disposeBag"]
+- !private ["So18UITraitEnvironmentP", "emailText"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isEnabled"]
+- !private ["So18UITraitEnvironmentP", "loginButton"]
+- !private ["So18UITraitEnvironmentP", "loginViewModel"]
+- !private ["So18UITraitEnvironmentP", "passwordText"]
+- !private ["So18UITraitEnvironmentP", "rx"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "validationLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "DisposeBag"]
+- ["So23UIUserActivityRestoringP", "RxLoginViewModel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "disposeBag"]
+- !private ["So23UIUserActivityRestoringP", "emailText"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isEnabled"]
+- !private ["So23UIUserActivityRestoringP", "loginButton"]
+- !private ["So23UIUserActivityRestoringP", "loginViewModel"]
+- !private ["So23UIUserActivityRestoringP", "passwordText"]
+- !private ["So23UIUserActivityRestoringP", "rx"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "validationLabel"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "isEnabled"]
+- !private ["So6UIViewC", "rx"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textColor"]
+- ["So16UIViewControllerC", "DisposeBag"]
+- ["So16UIViewControllerC", "RxLoginViewModel"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "disposeBag"]
+- ["So16UIViewControllerC", "emailText"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loginButton"]
+- ["So16UIViewControllerC", "loginPressed"]
+- ["So16UIViewControllerC", "loginViewModel"]
+- ["So16UIViewControllerC", "passwordText"]
+- ["So16UIViewControllerC", "validationLabel"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s26_ExpressibleByColorLiteralP", "green"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "RxLoginViewModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "green"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "validationLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "green"]
+- !private ["s21_ObjectiveCBridgeableP", "isEnabled"]
+- !private ["s21_ObjectiveCBridgeableP", "red"]
+- !private ["s21_ObjectiveCBridgeableP", "rx"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "textColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rx"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "7RxCocoa15ControlPropertyV"
+- !private "7RxCocoa19ControlPropertyTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "Sq"
+- !private "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- "16LoginWithRxSwift0cA14ViewControllerC"
+- "16LoginWithRxSwift0cA9ViewModelC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/ameeradamsika/Desktop/IOS/Demo/LoginWithRxSwift/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cb06e0a69dee3f47ee97d2d6b7eb7789"
